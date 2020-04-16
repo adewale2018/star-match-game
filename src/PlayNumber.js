@@ -1,8 +1,9 @@
 import React from "react";
+import { colors } from "./utils";
 
-const PlayNumber = ({ number }) => {
+const PlayNumber = ({ number, status, onClick }) => {
   return (
-    <button className='number' onClick={() => console.log("Num", number)}>
+    <button className='number' onClick={() => onClick(number, status)} style={{backgroundColor: colors[status]}}>
       {number}
     </button>
   );
