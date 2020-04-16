@@ -1,6 +1,6 @@
 .game {
   max-width: 500px;
-  margin: 0 auto;
+  margin: 2rem auto;
 }
 
 .body {
@@ -27,7 +27,7 @@
 }
 
 .star {
-	display: inline-block;
+  display: inline-block;
   margin: 0 15px;
 }
 
@@ -45,13 +45,14 @@
   font-size: 25px;
 }
 
-.number:focus, .number:active {
+.number:focus,
+.number:active {
   outline: none;
   border: thin solid #ddd;
 }
 
 .timer {
-	color: #666;
+  color: #666;
   margin-top: 3px;
   margin-left: 3px;
 }
@@ -60,4 +61,11 @@
   font-size: 250%;
   font-weight: bold;
   margin: 15px;
+}
+.play-again{
+  padding: .8rem;
+  background-color: rgba(0, 0, 0, .8);
+  color: #fff;
+  font-weight: bolder;
+  outline: none;
 }
